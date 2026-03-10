@@ -39,7 +39,9 @@ public class Array{
     if(arr[i]==target){
         System.out.print("AT "+i+" INDEX\n");
     }
+   
  }
+  System.out.println(arr.length);//HERE THE HOW TO FIND THE LENGTH OF THE ARRAY JUST LIKE IN C WE HAVE SIZE OF ATTRIBUTE SO HERE IS length ATTRIBUTE BY WHICH WE CCAN FIND THE SIZE OF THE ARRAY FIRSTLY I HAVE TO WRITE THE NAME OF THE ARRAY AND THEN A . AND THEN LENGTH ATTRIBUTE
     }
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
